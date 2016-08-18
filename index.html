@@ -1,27 +1,37 @@
 <!Doctype html>
 <html lang="en">
  <head>
+   <meta charset="utf-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <title>practice</title>
    <meta name="viewport" content="width=device-width, initial-scale=1">
-   <meta charset="utf-8">
+   <!-- font awesome -->
+   <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
+
+   
   <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script   src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<!-- google font -->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700|Pattaya" rel="stylesheet">
+
    <!-- css -->
    <link href="index.css" type="text/css" rel="stylesheet">
  </head>
 
- <body>
+ <body data-spy="scroll" data-target=".navbar">
   <!-- nav -->
    <nav class="navbar navbar-default navbar-fixed-top"> 
          <div class="container-fluid">
            <div class="navbar-header">
              <a href="#" class="navbar-brand">Amber Capell</a>
             </div>
-           <ul class="nav navbar-nav pull-right">
+           <ul class="nav nav-tabs pull-right">
             <li><a href="#bio">Bio</a></li>
-             <li><a href="#">Skills</a></li>
-             <li><a href="#">Contact</a></li>
+             <li><a href="#skills">Skills</a></li>
+             <li><a href="contact">Contact</a></li>
            </ul>
 
          </div>
@@ -42,15 +52,21 @@
   </div>
   
     <!-- bio -->
-    <div id="bio" style="background-color:#F6C9C0">
+    <div id="bio">
       <div class="container">
-        <div class="row">
-            <div class="col-lg-6">
-              <img class="img-rounded"src="images/me.jpg" alt="myself">
+        <div class=" overlay row">
+          
+            <div class="  col-md-6  col-md-6 ">
+  
+              <img class="img-rounded "src="images/me.jpg" alt="myself">
             </div>
       
-            <div class="col-lg-6">
+            <div class="col-md-6 col-lg-6">
+            
                <p>Hey there, My name is Amber.Im a Francophile ,Big Brother tv show loving unicyclist. Currently I work at Hoxworth blood Center as  Blood Recruiter. Although helping Cincinnati collect blood for our area hospitals is fulfilling, it is definitely not something I want to do for ever.  </p>
+
+               <h3>whats a domain?</h3>
+                <p>That is the question that i asked my self that needed with me learning how to code on my own.I realized that the skills to developing own website was an interest to me and I stumbled upon Girl develop it chapter in Cincinnati. They teach at affordable cost geared towards omen to learn coding. Ive taken several classes with GDI and  happy Ive found something that not only interest me but Id hopefully want to purse this as a career option.</p>
 
                <p>I want to continue to learn and grow in the field of web development to make awesome sites and web applications. </p>
 
@@ -59,30 +75,62 @@
                
            </div>
           
-        
-         </div> <!-- row-->
+         
+       </div> <!-- row-->
      </div>  <!-- container -->
+   
    </div>
 
 
    <!-- skills -->
 
-    <div class="skills">
-    <div class="container">
-        <div class="skill">
-           <h3>Git</h3>
+    <div id="skills" class="text-center" style="background-color:#DDCDE2; ">
+      <div class="container">
+        <div class="row>">
 
-        </div>
-        <div class="skill">
-           <h3>html/css</h3>
+          <h2>Skills</h2>
+
+           <div class="col-md-4 
+col-lg-4 ">
+              <div class="skill">
+                  <i class="fa fa-github-alt fa-4x" ></i>
+                  <h3>Git/Github</h3>
+              </div>
+          </div>
+
+          <div class="col-md-4 col-lg-4">
+            <div class="skill">
+               <i class="fa fa-css3 fa-4x" ></i>
+               <h3>Css</h3>
+
+               
+            </div>
+          </div>
+
+          <div class="col-md-4 col-lg-4">
+            <div class="skill">
+               <i class="fa fa-html5 fa-4x" aria-hidden="true"></i>
+               <h3>Html</h3>
+               
+            </div>
+          </div>
+
+        
+       </div>  <!-- row -->   
+    </div> <!-- container -->
+</div>
+   <div id="contact"style="background-color:#D8B6E1" class="text-center">
+     <div class="container">
+       <div class="row">
+          
+            <h2>Get in touch  with me<h2>
+            <a class="btn btn-primary"   href="https://www.linkedin.com/in/ambercapell
+  ">Linkedin</a>
+            <a class="btn btn-primary"  href="https://github.com/amberlache92">Github</a>
            
-        </div>
-        <div class="skill">
-           <h3>jquery</h3>
-           
-        </div>
-      </div> <!-- container -->
-    </div>
+
+       </div> <!-- row -->
+   </div> <!-- container -->
   
 </body>
  </html>

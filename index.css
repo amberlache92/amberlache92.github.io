@@ -4,8 +4,19 @@
 
 
 }
+body{
+	position: relative;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size:16px;
 
+}
+.navbar{
+	background-color: #DDCDE2;
+}
+h1,h2,h3 {
+	font-family: 'Pattaya', sans-serif;
 
+}
 .jumbotron{
 	color: white;
 	background-image:url('images/city.jpg');
@@ -23,10 +34,22 @@
 	margin-top: 50px;
 }
 
-.bio{
-  height:100vh;
+#bio{
+  padding:40px 0;
+ 	background-color:#E9DCE7;
+	
+}
+.overlay {
+
+}
+#bio p{
+	line-height: 1.5em;
+}
+#skills{
+	
+	padding:20px 0;
 }
 img{ 
-height: 400px;
-width: auto; }
+height: 300px;
+width:300px; }
 
