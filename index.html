@@ -15,20 +15,25 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script   src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 <!-- google font -->
-<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700|Pattaya" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Cardo|Josefin+Sans" rel="stylesheet">
 
    <!-- css -->
    <link href="index.css" type="text/css" rel="stylesheet">
  </head>
 
- <body data-spy="scroll" data-target=".navbar">
+ <body data-spy="scroll" data-target='#nav'>
   <!-- nav -->
-   <nav class="navbar navbar-default navbar-fixed-top"> 
-         <div class="container-fluid">
+   <nav class="collapse navbar-collapse second-color"> 
+         <div class="container">
            <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse">
+              <span class="icon-bar"></span >
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
              <a href="#" class="navbar-brand">Amber Capell</a>
             </div>
-           <ul class="nav nav-tabs pull-right">
+           <ul id="#nav"class="nav navbar-nav pull-right">
             <li><a href="#bio">Bio</a></li>
              <li><a href="#skills">Skills</a></li>
              <li><a href="contact">Contact</a></li>
@@ -41,36 +46,35 @@
   <div class="jumbotron"> 
     <div class="container">
        <div class="row">
+         <div class="col-12-lg">
          <div class="content-inner">
+            
             <h1>Amber Capell</h1>
             <p>Blood Recruiter seeking web development experience
             </p>
-            <a href="#bio" class="btn btn-primary btn-lg">check me out..</a>
+            <a href="#bio" class="btn btn-primary btn-lg">Resume</a>
           </div>
-        </div>  <!-- row -->
+        </div>
+      </div>  <!-- row -->
      </div>   <!-- container -->
+
   </div>
-  
+
     <!-- bio -->
-    <div id="bio">
+    <div id="bio" class="main-color text-center">
       <div class="container">
         <div class=" overlay row">
           
-            <div class="  col-md-6  col-md-6 ">
-  
-              <img class="img-rounded "src="images/me.jpg" alt="myself">
-            </div>
-      
-            <div class="col-md-6 col-lg-6">
             
+      
+            <div class="col-md-12 col-lg-12">
+               <h2>About me </h2>
+                <hr>
                <p>Hey there, My name is Amber.Im a Francophile ,Big Brother tv show loving unicyclist. Currently I work at Hoxworth blood Center as  Blood Recruiter. Although helping Cincinnati collect blood for our area hospitals is fulfilling, it is definitely not something I want to do for ever.  </p>
 
-               <h3>whats a domain?</h3>
-                <p>That is the question that i asked my self that needed with me learning how to code on my own.I realized that the skills to developing own website was an interest to me and I stumbled upon Girl develop it chapter in Cincinnati. They teach at affordable cost geared towards omen to learn coding. Ive taken several classes with GDI and  happy Ive found something that not only interest me but Id hopefully want to purse this as a career option.</p>
+               <p>When I'm not working code on my own and with the help of Girl Develop it.Im hoping to gain strong skills in front end development and eventually learn some back-end as well.</p>
+               <p>I love taking trips one day this life ill go over seas and live in France and backpack across Europe. Most people dont know I love playing ping pong .However it is not a secret that Im obsessed with Big Brother.My favorite times of the year are Halloween and double eviction night</p>
 
-               <p>I want to continue to learn and grow in the field of web development to make awesome sites and web applications. </p>
-
-              
                 
                
            </div>
@@ -84,23 +88,27 @@
 
    <!-- skills -->
 
-    <div id="skills" class="text-center" style="background-color:#DDCDE2; ">
+    <div id="skills" class="text-center second-color" >
       <div class="container">
         <div class="row>">
 
-          <h2>Skills</h2>
+         
+           
+           <div class="col-md-12 col-lg-12">
+              <h2>Skills</h2>
+              <hr>
+           </div>
 
-           <div class="col-md-4 
-col-lg-4 ">
+           <div class="col-md-4 col-lg-4">
               <div class="skill">
-                  <i class="fa fa-github-alt fa-4x" ></i>
+                  <i class="fa fa-github-alt fa-3x" ></i>
                   <h3>Git/Github</h3>
               </div>
           </div>
 
           <div class="col-md-4 col-lg-4">
             <div class="skill">
-               <i class="fa fa-css3 fa-4x" ></i>
+               <i class="fa fa-css3 fa-3x" ></i>
                <h3>Css</h3>
 
                
@@ -109,7 +117,7 @@ col-lg-4 ">
 
           <div class="col-md-4 col-lg-4">
             <div class="skill">
-               <i class="fa fa-html5 fa-4x" aria-hidden="true"></i>
+               <i class="fa fa-html5 fa-3x " aria-hidden="true"></i>
                <h3>Html</h3>
                
             </div>
@@ -118,16 +126,20 @@ col-lg-4 ">
         
        </div>  <!-- row -->   
     </div> <!-- container -->
-</div>
-   <div id="contact"style="background-color:#D8B6E1" class="text-center">
+   </div>
+   <!-- contact -->
+   <div id="contact"  class="text-center main-color">
      <div class="container">
        <div class="row">
-          
+            
             <h2>Get in touch  with me<h2>
-            <a class="btn btn-primary"   href="https://www.linkedin.com/in/ambercapell
-  ">Linkedin</a>
-            <a class="btn btn-primary"  href="https://github.com/amberlache92">Github</a>
-           
+            <div class="col-md-6">
+               <i class="fa fa-github" aria-hidden="true"></i>
+            </div>
+           <div class="col-md-6">
+              <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+
+            </div>
 
        </div> <!-- row -->
    </div> <!-- container -->

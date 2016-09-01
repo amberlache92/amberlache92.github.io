@@ -5,51 +5,75 @@
 
 }
 body{
-	position: relative;
-	font-family: 'Open Sans Condensed', sans-serif;
-	font-size:16px;
+	
+	 font-family: 'Josefin Sans', sans-serif;
+     
+	font-size:18px;
 
 }
-.navbar{
-	background-color: #DDCDE2;
-}
+
+
 h1,h2,h3 {
-	font-family: 'Pattaya', sans-serif;
-
+	font-family: 'Cardo', serif;
+}
+h2{
+	
+	font-weight: bold;
 }
 .jumbotron{
 	color: white;
 	background-image:url('images/city.jpg');
-	height:100vh;
+	background-attachment: fixed;
 	background-size: cover;
 	text-align: center;
+    padding: 150px 0;
 	margin-bottom: 0;
 	
 }
-.jumbotron .content-inner{
-	margin-top:150px; ;
+
+
+.jumbo-me{
+	height: 250px;
+	width: 250px;
+	background-color:#666;
+	border-radius: 50%;
+	margin: 0 auto;
+	text-align: center;
+
+}
+.navbar-brand{
+	color:black;
+	font-size:30px; 
+}
+.nav a{
+color: black;
+
 }
 
-.btn{
-	margin-top: 50px;
+#bio {
+ 
+ padding: 100px;
 }
-
-#bio{
-  padding:40px 0;
- 	background-color:#E9DCE7;
-	
+#skills{
+	padding: 100px;
 }
-.overlay {
+.main-color {
+	background-color: #EAE2EC;
 
+}
+.second-color{
+	background-color:#FBEBFF;
 }
 #bio p{
 	line-height: 1.5em;
 }
-#skills{
-	
-	padding:20px 0;
-}
+
 img{ 
 height: 300px;
 width:300px; }
+hr{
+	width: 50px;
+	color: #DDA7BE;
+}
+	
 
