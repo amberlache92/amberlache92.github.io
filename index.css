@@ -4,6 +4,9 @@
 
 
 }
+html{
+	overflow-x:hidden; 
+}
 body{
 	overflow-x:hidden;
 	 font-family: 'Josefin Sans', sans-serif;
@@ -12,6 +15,9 @@ body{
 
 }
 h1{
+
+	-webkit-text-shadow:3px 3px  black;
+    -moz-text-shadow:  3px 3px  black;
 	text-shadow: 3px 3px  black;
 	font-size: 60px;
 }
@@ -70,8 +76,13 @@ background-color: rgb(31,50,65);
 }
 #bio ul{
 	list-style-type: none;
+
 	
 }
+#bio li{
+	padding-bottom: 5px;
+}
+
 #bio ul i{
 	color:black;
 	padding-right: 5px;
@@ -103,9 +114,16 @@ i{
 
 	color:white;
 }
+
 #contact i{
 		color:#EB474C;
-	}	
+	}
+#contact i:hover{
+	 color: #e61920;
+}
+#contact li{
+
+}	
 #contact a{
 		color:  #1F3241;
 		text-decoration: underline;
