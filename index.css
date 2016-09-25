@@ -16,8 +16,7 @@ body{
 }
 h1{
 
-	-webkit-text-shadow:3px 3px  black;
-    -moz-text-shadow:  3px 3px  black;
+	
 	text-shadow: 3px 3px  black;
 	font-size: 60px;
 }
@@ -89,7 +88,7 @@ background-color: rgb(31,50,65);
 }
 #boot{
 
-	border-radius: 50%;
+	
 	-webkit-box-shadow:15px 8px 10px  #666;
     -moz-box-shadow:  15px 8px 10px  #666;
 	box-shadow:15px 8px 10px  #666;
@@ -137,8 +136,9 @@ i{
 
 @media screen and (max-width:990px){
 	
-	#bio #boot{
+	 #boot{
 			margin-top:20px;
+			margin-bottom: 20px;
 	
 	}
 }
