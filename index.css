@@ -49,6 +49,11 @@ h2{
 	color:black;
 	font-size:30px; 
 }
+#logo{
+	height: 45px;
+	width: 80px;
+	margin-top: -15px;
+}
 .nav a{
    color:#1F3241;
 
