@@ -107,14 +107,40 @@ background-color: rgb(31,50,65);
 }
 
 img{ 
-height: 300px;
-width:300px; }
-.project{
-	height: 150px;
-	width: 150px;
+	position: relative;
+;
+width:350px; }
 
+.project{
+	position: relative;
+	/*height: 150px;
+	width: 150px;*/
+  margin-top:10px;
 
 }
+
+.overlay{
+	position: absolute;
+	background-color: black;
+	height: 100%;
+	width: 350px;
+	z-index: 999;
+	top: 0;
+	transition: background-color 0.5s ease;
+   opacity: 0;
+
+}
+.overlay:hover {
+ opacity: 0.8;
+}
+
+.overlay p{
+	color: white;
+	opacity: 1;
+	text-align: center;
+	
+}
+
 hr{
 	width: 50px;
 	border: 4px solid #EB474C;
