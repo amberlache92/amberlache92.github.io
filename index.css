@@ -128,27 +128,46 @@ width:350px; }
 
 .overlay{
 	position: absolute;
-	background-color: rgba(145, 104, 176,0.8);
+	background-color: rgba(145, 104, 176,0.9);
 	height: 100%;
 	width: 350px;
 	z-index: 999;
 	top: 0;
-	transition: background-color 0.5s ease;
+	-webkit-transition: opacity .25s ease-in;
+    -moz-transition: opacity .25s ease-in;
+	transition: opacity .25s ease-in;
 	opacity: 0;
-	cursor: pointer;
-	line-height: 150px;
+	line-height: 50px;
 	vertical-align: middle;
   
 
 }
+.overlay .btn-sm{
+	margin-left: 125px;
+	text-decoration: none;
+}
 .overlay:hover {
 opacity: 1;
 }
+.overlay ul{
+	text-decoration: none;
+	text-align: center;
+	color:black;
+}
+.overlay li{
+	display:  inline;
+	text-decoration: none;
+	text-align: center;
+	
+	font-family: 'Cardo', serif;
+}
 
 .overlay p{
-	color: white;
+	color: black;
 	opacity: 1;
 	text-align: center;
+	font-weight: bold;
+
 	
 }
 
